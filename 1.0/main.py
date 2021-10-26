@@ -4,6 +4,7 @@ import data_user as ds
 
 from scan_context import context_scan
 
+
 def recognize_speech_mic(recognizer, mic):
     if not isinstance(recognizer, sr.Recognizer):
         raise TypeError(recognizer, sr.Recognizer)
@@ -41,7 +42,7 @@ if __name__ == "__main__":
     recognizer = sr.Recognizer()
 
     while continue_:
-        print("Say Something Dude")
+        print("Say Something Dude DA4")
 
         audio_data = recognize_speech_mic(recognizer, mic)
 
