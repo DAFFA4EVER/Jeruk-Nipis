@@ -42,7 +42,7 @@ if __name__ == "__main__":
     recognizer = sr.Recognizer()
 
     while continue_:
-        print("Say Something Dude DA4")
+        print("Say Something Dude DA4 HAHA")
 
         audio_data = recognize_speech_mic(recognizer, mic)
 
